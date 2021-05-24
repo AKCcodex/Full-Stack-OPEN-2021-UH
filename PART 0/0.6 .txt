@@ -1,0 +1,5 @@
+title 0.6 
+note over Browser: Enter data and submit
+Browser->Server:HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server-> Browser: [{content: "hlo", date: "2021-05-22T17:48:00.821Z"}.......]
+note over Browser: Browser excuates and display results

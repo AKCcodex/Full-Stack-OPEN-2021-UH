@@ -1,0 +1,12 @@
+title 0.5
+note over Browser: Enter SPA
+Browser->Server:HTTP GEThttps://studies.cs.helsinki.fi/exampleapp/spa
+Server-> Browser:HTML code
+Browser->Server:https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-> Browser:css code
+Browser->Server:HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-> Browser:js code
+note over Browser:excuates js code
+Browser->Server:HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-> Browser: [{"content":"","date":"2021-05-24T14:21:13.233Z"}.......]
+note over Browser: Browser excuates and display results
