@@ -29,7 +29,7 @@ const Statistic = ({ text, value }) => (
         <td>{value}</td>
     </tr>);
 const Button = ({ handleClick, text }) => (
-    <button onClick={handleClick}>{text}</button>
+    <button onClick={handleClick}>{text}</button>);
 
 const App = () => {
     const [good, setGood] = useState(0)
