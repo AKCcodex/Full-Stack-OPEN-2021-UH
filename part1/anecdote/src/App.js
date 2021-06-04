@@ -17,7 +17,7 @@ const App = () => {
       <h1>Anecdote of the day</h1>
       {anecdotes[selected]}
       <Button handleClick={handleRandomClick} text="Next anecdotes" />
-      <Button action={handleVoteClick} text="Vote" />
+      <Button onClick={handleVoteClick} text="Vote" />
       <h1> Anecdote With most Votes </h1>
       {anecdotes[points.indexOf(Math.max(...points))] }
       <h5>It has {points[selected]} votes</h5>
