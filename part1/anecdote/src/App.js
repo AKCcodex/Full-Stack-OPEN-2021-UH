@@ -11,6 +11,7 @@ const App = () => {
     score[selected] += 1;
     setPoints(score);
   };
+  console.log(points);
 
   return (
     <div>
